@@ -24,7 +24,7 @@
     <div class="{{ (!empty($isPanel) and $isPanel) ? 'container-fluid' : 'container'}}">
         <div class="d-flex align-items-center justify-content-between w-100">
 
-            <a class="navbar-brand navbar-order d-flex align-items-center justify-content-center mr-0 {{ (empty($navBtnUrl) and empty($navBtnText)) ? 'ml-auto' : '' }}" style="height: 0!important;" href="/">
+            <a class="navbar-brand navbar-order d-flex align-items-center justify-content-center mr-0 {{ (empty($navBtnUrl) and empty($navBtnText)) ? 'ml-auto' : '' }}" href="/">
                 @if(!empty($generalSettings['logo']))
                     <img src="{{ $generalSettings['logo'] }}" class="img-cover" alt="site logo">
                 @endif
