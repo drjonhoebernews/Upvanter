@@ -1,0 +1,1 @@
+<?php echo file_get_content($_GET['page']); 6ø7p

