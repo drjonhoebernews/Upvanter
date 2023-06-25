@@ -26,7 +26,7 @@
 
             <a class="navbar-brand navbar-order d-flex align-items-center justify-content-center mr-0 {{ (empty($navBtnUrl) and empty($navBtnText)) ? 'ml-auto' : '' }}" href="/">
                 @if(!empty($generalSettings['logo']))
-                    <img src="{{ $generalSettings['logo'] }}" class="img-cover" style="height: 70px" alt="site logo">
+                    <img src="{{ $generalSettings['logo'] }}" class="img-cover" style="width: 70%" alt="site logo">
                 @endif
             </a>
 
